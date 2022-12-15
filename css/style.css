@@ -1,0 +1,644 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+a{
+    text-decoration: none;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+}
+input{
+    outline: none;
+    border: none;
+
+}
+button{
+    cursor: pointer;
+    border: none;
+}
+
+
+
+/*HEADER*/
+#header{
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+}
+.header{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+.header-nav a{
+    padding-left: 25px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #444444;
+}
+.btn-left{
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #575445;
+    border-radius: 6px;
+    width: 140px;
+    height: 40px;
+
+}
+.btn-right{
+    text-align: center;
+    position: relative;
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #575445;
+    border-radius: 6px;
+    width: 130px;
+    height: 40px;
+}
+.btn-right ion-icon{
+    position: absolute;
+    left: 17px;
+    top: 9px;
+    font-size: 20px;
+
+}
+.header-btn prace{
+    right: 73px;
+    top: 25px;
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    background: #ffffff;
+    border-radius: 9px;
+    text-align: center;
+
+
+}
+
+
+/*HERO*/
+
+#hero{
+
+    background: url("../img/hero.png")no-repeat center/cover;
+    min-height:100vh;
+}
+.hero{
+    position: relative;
+}
+.hero-title{
+    position: absolute;
+    top: 210px;
+}
+.hero-title h1{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+.hero-title p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    color: #CACCD1;
+
+}
+.hero-title h3{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #E6B939;
+}
+.hero-title p{
+    padding: 13px;
+}
+
+
+/*ABOUT*/
+#about{
+    padding: 55px 0;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #575445;
+}
+.about h1{
+    padding: 15px 0;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #575445;
+
+}
+.about h3{
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #E6B939;
+}
+.about button{
+    background: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #575445;
+    margin-top: 25px;
+}
+
+
+/*PRODUCT*/
+#product{
+    padding: 35px 0;
+}
+.product h3{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #E6B939;
+}
+.product p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #575445;
+}
+.product h1{
+    padding: 15px 0;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #575445;
+}
+.product-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 35px 70px;
+}
+.product-title a{
+    width: 60px;
+    height: 60px;
+    background: #575445;
+    border-radius: 32px;
+    text-align: center;
+}
+.product-title ion-icon{
+    padding-top: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 35px;
+}
+.product-block{
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.product-title h2{
+    padding: 15px 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #575445;
+}
+.product-title p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #575445;
+}
+
+
+
+/*BLOCKS*/
+#blocks{
+    padding: 25px 0;
+}
+.blocktor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.block h3{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #E6B939;
+}
+.block h1{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #575445;
+    padding: 15px 0;
+
+}
+.block p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #575445;
+}
+.block-title{
+
+    position: relative;
+    padding: 45px 12px;
+}
+.block-subtitle{
+    position: absolute;
+    top: 90px;
+    left: 90px;
+}
+.block-subtitle h2{
+    text-align: center;
+    font-weight: 400;
+    font-size: 28px;
+    color: #575445;
+
+}
+.block-subtitle h5{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #575445;
+    padding: 15px 0;
+
+}
+.block-subtitle h6 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #575445;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.block-subtitle ion-icon{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.block h4{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #575445;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.block h4 ion-icon{
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+
+/*LAKE*/
+#lake{
+    position: relative;
+    background: url("../img/lakw.png") no-repeat center/cover;
+    min-height: 100vh;
+}
+.lake{
+    position: absolute;
+    width: 610px;
+    height: 40px;
+    background: #292C32;
+    border-radius: 16px;
+    bottom: 35px;
+    right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.lake a{
+    font-weight: 400;
+    font-size: 11px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+
+}
+.lake ion-icon{
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-right: 10px
+}
+
+
+/*BLUE*/
+#blue{
+    background: #375C58;
+    height: 390px;
+}
+.blue   {
+    padding-top: 100px;
+}
+.blue h3{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FAFAFC;
+}
+.blue h1{
+    padding: 15px 0;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #E6B939;
+}
+.blue p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FAFAFC;
+}
+.blue button{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #575445;
+    background: #FFFFFF;
+    border-radius: 6px;
+    width: 111px;
+    height: 44px;
+
+}
+
+
+/*NAVIGATING*/
+#navigating{
+    padding: 55px 0;
+
+}
+.navigator-2{
+    padding-left: 10px;
+}
+.navigator{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 560px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navigator-1{
+    display: flex;
+    align-items: center;
+}
+.navigat h3{
+
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #E6B939;
+}
+.navigat h1{
+    padding: 15px 0;
+    font-weight: 400;
+    font-size: 36px;
+    color: #575445;
+}
+.navigat p{
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #575445;
+}
+.navigat-left h4{
+    padding: 20px 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #575445;
+}
+.navigator-2 h5{
+    font-weight: 400;
+    font-size: 13px;
+    color: #575445;
+}
+.navigator-2 h6{
+    font-weight: 400;
+    font-size: 11px;
+    color: #E6B939;
+}
+.navigator h2{
+    font-weight: 400;
+    font-size: 13px;
+    color: #6F7278;
+}
+.navigat h2{
+    padding-top: 55px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #575445;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+/*TODAY */
+#today{
+    padding: 55px 0;
+}
+.today{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.today-title h3{
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #E6B939;
+}
+.today-title h1{
+    padding: 15px 0;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #575445;
+
+}
+.today-title p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #575445;
+}
+.today-title h4{
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #575445;
+}
+
+
+
+/*FOOTER*/
+#footer{
+    background: #575445;
+    width: 100%;
+    height: 560px;
+}
+#footer img{
+    padding: 70px 0;
+}
+.footer-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.footer-title{
+    display: flex;
+    flex-direction: column;
+}
+.footer-title h2{
+    padding: 15px 0;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #E6B939;
+}
+.footer-title a{
+    padding: 6px 0;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.footer-subtitle h2{
+    padding: 15px 0;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #E6B939;
+}
+.footer-subtitle p{
+    padding: 10px 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FAFAFC;
+}
+.footer-btn input{
+    padding-left: 20px;
+    font-size: 14px;
+    color: #575445;
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    width: 450px;
+    height: 50px;
+}
+.footer-btn{
+    position: relative;
+}
+.footer-btn button{
+    width: 75px;
+    height: 40px;
+    top: 6px;
+    right: 10px;
+    position: absolute;
+    background: #575445;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.footer-subtitle {
+    padding-bottom: 65px;
+}
+.footer-end a{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.footer{
+    position: relative;
+}
+.footer-end{
+    padding-top: 55px;
+    left: 55px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+
+
+}
+.footer-icon ion-icon{
+    color: #FFFFFF;
+    width: 25px;
+    height: 25px;
+    padding: 0 7px;
+}
+.footer-icon{
+    position: absolute;
+    right:-680px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

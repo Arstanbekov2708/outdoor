@@ -1,0 +1,161 @@
+@media(max-width: 1440px){
+    .container{
+        width: 90%;
+    }
+
+}
+
+@media(max-width: 1200px){
+    .footer-icon {
+        right: -583px;
+    }
+    .navigat-left img{
+        width: 90%;
+    }
+    .navigat-left{
+        padding: 25px 0;
+    }
+
+
+
+}
+
+@media(max-width: 1024px){
+    .footer-icon {
+        right: -432px;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .navigat h3{
+        text-align: center;
+    }
+    .navigat h1{
+        text-align: center;
+    }
+    .navigat p{
+        text-align: center;
+    }
+
+
+
+
+
+}
+
+@media(max-width: 992px){
+    .about{
+        flex-direction: column;
+    }
+    .about-title{
+        padding-top: 45px;
+    }
+
+
+}
+
+@media(max-width: 768px){
+    .header-nav{
+        display: none;
+    }
+    .today{
+        display: flex;
+        flex-direction: column;
+    }
+    .today-title{
+        padding-top: 25px;
+    }
+    .footer-icon{
+        right: -213px;
+    }
+    .product-block{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .footer-block{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #footer{
+        height: 755px;
+    }
+    .hero-title{
+        top: 500px;
+        left: 130px;
+      text-align: center;
+    }
+
+
+}
+
+@media(max-width: 576px){
+    #footer{
+        height: 785px;
+    }
+    .footer-end {
+        padding-bottom: 85px;
+    }
+    .hero-title{
+        left: 50px;
+    }
+    .navigat h2{
+        width:55%;
+    }
+    .footer-icon{
+        top: 90px;
+        right: 100px;
+    }
+
+
+}
+@media(max-width: 451px){
+    .navihat-left h4{
+        font-size: 10px;
+    }
+    .hero-title{
+        top: 180px;
+    }
+    .footer-btn input{
+        width: 364px;
+    }
+    .about img{
+        width: 70%;
+    }
+    .lake{
+        width: 400px;
+        right: 21px;
+    }
+    .today img{
+        width: 80%;
+    }
+    .hero-title{
+        left: 10px;
+    }
+    .navigat h2{
+        padding-left: 100px;
+    }
+    #footer img{
+        width: 90%;
+
+    }
+
+
+}
+@media(max-width: 400px){
+
+
+}
+@media(max-width: 376px){
+
+}
+
+@media(max-width: 320px){
+
+}
+
+
+
+
